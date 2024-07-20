@@ -1,0 +1,216 @@
+body, html{
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+body >*{
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+.head-nav{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.525);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    margin: 10px 0px 10px 0px;
+}
+nav a{
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    color: white;
+    transition-duration: 0.4s;
+    user-select: none;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+
+}
+header{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 50px;
+}
+.headerText{
+    color: white;
+    width: 50vw;
+    margin-left: 50vw; /* Distance from the left edge */
+    margin-top: 25vw;
+}
+.headerText h1{
+    margin:0;
+    font-family: "Work Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    font-style: italic;
+}
+.headerText p{
+    margin: 0;;
+}
+.h2right{
+    width: 80%;
+    margin: 0;
+}
+.PODwrap{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.POD{
+    width: 270px;
+    height: 270px;
+    text-align: center;
+    border-radius: 30px;
+}
+.POD p{
+    color: white;
+    background-color: rgb(50, 50, 50);
+    margin: 0;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+.proImg{
+    width: 225px;
+    height: 225px;
+    margin: 0;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+}
+.proImg:hover{
+    width: 235px;
+    height: 235px;
+    transition-duration: 0.3s;
+}
+.PODh2{
+    text-transform: uppercase;
+}
+.PODtext{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.PODtxt{
+    width: 90%;
+    margin: 0 auto;
+}
+.PODbtn{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.PODbtn button{
+    width: 120px;
+    height: 30px;
+    border-radius: 100px;
+    transition-duration: 0.5s;
+    margin: 10px;
+}
+.btn1{
+    background-color: white;
+    border: solid rgb(50, 50, 50) 1px;
+}
+.btn2{
+    background-color: rgb(50, 50, 50);
+    border: none;
+    color: white;
+}
+.btn1:hover{
+    cursor: pointer;
+}
+.btn2:hover{
+    cursor: pointer;
+}
+.product{
+    height: 285px;
+    width: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.product strong,
+.product p{
+    margin: 0;
+    margin-top: 10px;
+}
+.greyTxt{
+    padding: 0 5px 0 5px;
+    margin: 0 3px 0 3px;
+    background-color: gray;
+    font-size: smaller;
+    color: white;
+    border-radius: 8px;
+    
+}
+.productList{
+    margin-top: 20px;
+    padding: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+footer{
+    padding-top: 10px;
+    background-color: rgb(26, 26, 26);
+    color: lightgray;
+}
+.links{
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.links a{
+    color: lightgray;
+    transition-duration: 0.3s;
+
+}
+.links a:hover{
+    color: aqua;
+    transition-duration: 0.3s;
+}
+.icon {
+    border-radius: 0;
+    width: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition-duration: 0.25s;
+}
+
+.icon:hover {
+    width: 30px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    filter: drop-shadow(cyan 3px 3px);
+    transition-duration: 0.25s;
+}
+span{
+    margin: 5px
+}
