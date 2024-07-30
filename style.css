@@ -5,7 +5,9 @@ body, html{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
 }
-body >*{
+header,
+main,
+footer{
     width: 100vw;
     padding: 0;
     margin: 0;
@@ -22,16 +24,21 @@ a{
 }
 .head-nav{
     position: fixed;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
     background-color: rgba(0, 0, 0, 0.525);
+}
+nav{
+    position: relative;
+    margin: 10px 0px 10px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-nav{
-    margin: 10px 0px 10px 0px;
-}
 nav a{
-    margin: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     padding: 5px 10px 5px 10px;
     border-radius: 15px;
     color: white;
@@ -43,6 +50,10 @@ nav a:hover{
     color: black;
     transition-duration: 0.4s;
 
+}
+.navBtn{
+    position: relative;
+    display: none;
 }
 header{
     background-position: center;
@@ -187,6 +198,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
+    align-items: center;
 }
 footer{
     padding-top: 10px;
@@ -226,4 +238,43 @@ footer{
 }
 span{
     margin: 5px
+}
+@media screen and (max-width: 1000px) {
+    .productList{
+        justify-content: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        display: none;
+        margin: 0;
+    }
+    .head-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .navBtnDiv{
+        width: 100vw;
+    }
+    .navBtn{
+        display: block;
+        margin: 5px;
+        float: right;
+    }
+    nav a{
+        width: 100%;
+        text-align: center;
+    }
+    .PODwrap{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .PODtext,
+    .PODbtn{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
 }
