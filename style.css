@@ -276,5 +276,8 @@ span{
         align-items: center;
         width: 100%;
     }
+    .headerText h1{
+        font-size: 30px;
+    }
 
 }
