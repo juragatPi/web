@@ -261,6 +261,9 @@ span{
         margin: 5px;
         float: right;
     }
+    .navBtn p{
+        transform: scale(1.5);
+    }
     nav a{
         width: 100%;
         text-align: center;
@@ -282,5 +285,6 @@ span{
     .headerText p{
         transform: scale(0.8)
     }
+    
 
 }
