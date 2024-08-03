@@ -261,7 +261,7 @@ span{
         margin: 5px;
         float: right;
     }
-    .navBtn p{
+    .navBtn strong{
         transform: scale(1.5);
     }
     nav a{
